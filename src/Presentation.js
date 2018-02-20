@@ -14,9 +14,17 @@ import {
   Text
 } from "spectacle";
 import CodeSlide from "@bam.tech/spectacle-code-slide";
-import "prismjs/components/prism-core";
+
 // Import theme
-import createTheme from "spectacle/lib/themes/default";
+import createTheme from "spectacle-theme-nova";
+// Require CSS
+import "normalize.css";
+import "./css/prism.css";
+import "./css/custom.css";
+import "prismjs";
+import "./syntax/prism-javascript";
+
+// Code
 import { code1 } from "./codeSlides/RepartitionSummaryTablePreRefacto.js";
 // Require CSS
 require("normalize.css");
