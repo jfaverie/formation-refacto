@@ -84,7 +84,7 @@ export default class Presentation extends React.Component {
         <CodeSlide
           transition={[]}
           lang="js"
-          source={code1}
+          code={code1}
           ranges={[
             { loc: [0, 270], title: "Walking through some code" },
             { loc: [0, 1], title: "The Beginning" },

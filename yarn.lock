@@ -17,9 +17,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@bam.tech/spectacle-code-slide@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@bam.tech/spectacle-code-slide/-/spectacle-code-slide-0.6.2.tgz#e6f2a119f13603cda1159d33e5928bcb64e1b4bc"
+"@bam.tech/spectacle-code-slide@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@bam.tech/spectacle-code-slide/-/spectacle-code-slide-0.7.0.tgz#dfeaa235850b5ec9bf73330d16de290a108e10dc"
   dependencies:
     component-raf "^1.2.0"
     component-tween "^1.2.0"
